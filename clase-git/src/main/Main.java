@@ -49,9 +49,21 @@ public class Main {
                         break;
                     case 3:
                         //Multiplicacion
+                        System.out.printf("%s", "Número 1: ");
+                        num1 = Integer.valueOf(sc.nextLine());
+                        System.out.printf("%s", "Número 2: ");
+                        num2 = Integer.valueOf(sc.nextLine());
+                        resultado = num1 * num2;
+                        System.out.println("Respuesta: " + resultado);
                         break;
                     case 4:
                         //Division
+                        System.out.printf("%s", "Número 1: ");
+                        num1 = Integer.valueOf(sc.nextLine());
+                        System.out.printf("%s", "Número 2: ");
+                        num2 = Integer.valueOf(sc.nextLine());
+                        respuesta = Float.valueOf(num1) / Float.valueOf(num2);
+                        System.out.println("Respuesta: " + respuesta);
                         break;
                 }
             }
